@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>PORTAFOLIO</title>
+</head>
+
+<body>
+    <section>
+        <div class="bg" id="div1"></div>
+
+        <h1 id="titulo"><u><b>Mario Ramos Navarro</u></b>
+            <li id="titulo2">Portafolio Bootcamp Java Módulo 2</li>
+        </h1>
+
+
+    </section>
+    <section>
+        <div class="bg" id="div2"></div>
+        <h1 id="tituloreseña"><b>Reseña Profesional</b>
+            <li id="lin1">Ingeniero Comercial y Administrador mención Finanzas <br>Orientado a la eficiencia y trabajo
+                colaborativo <br>Comprometido en alcanzar los objetivos con perseverancia <br>Experiencia en
+                administración y en el área contable <br>Motivado por el trabajo bien realizado <br>Enfocado en la
+                adaptabilidad, constancia y liderazgo</li>
+        </h1>
+    </section>
+
+    <section>
+        <div class="bg" id="div3"></div>
+        <h1 id="tituloHabilidades"><b>Habilidades y Proyectos</b>
+            <li id="lin2">Responsable y perseverante con los objetivos propuestos <br>En búsqueda de nuevos desafíos
+                <br>Espíritu emprendedor y colaborativo <br>Focalizado al aprendizaje y crecimiento personal
+                <br>Responsable de implementar técnicas de Análisis de Datos <br>Especialista en métodos de eficiencia y
+                optimización <br>Presiona para saber más de mi experiencia y proyectos <a
+                    href="https://cl.linkedin.com/" target="_blank" rel="noopener">acá</a>
+            </li>
+        </h1>
+    </section>
+
+    <section>
+        <div class="bg" id="div4"></div>
+        <h1 id="tituloLogros"><b>Logros y Desafíos</b>
+            <li id="lin3">Ránking N°1 en Ingeniería Comercial <br>Ránking N°1 en Ingeniería mención Finanzas
+                <br>Certificación en Análisis de Datos <br>Certificación en diversos Softwares de Gestión Contable
+                <br>Certificación Nivel Intermedio Idioma Inglés <br>Cursando Bootcamp Full Stack Java Trainee
+            </li>
+        </h1>
+    </section>
+
+    <section>
+        <div class="bg" id="div5"></div>
+        <h1>Contacto</h1>
+
+        <form class="row g-3 p-3">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label text-light">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$"
+                    required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputNombre" class="form-label text-light">Nombre</label>
+                <input type="text" class="form-control" id="inputNombre" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label text-light">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputPais" class="form-label text-light">País</label>
+                <select id="inputPais" class="form-select" required>
+                    <option selected>Chile</option>
+                    <option>Argentina</option>
+                    <option>Canadá</option>
+                    <option>Brasil</option>
+                    <option>Otro</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label text-light">Escribe tus consultas</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+            </div>
+
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar solicitud</button>
+            </div>
+        </form>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+    <script src="./jscript.js"></script>
+
+</html>
